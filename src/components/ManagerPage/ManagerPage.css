@@ -1,0 +1,15 @@
+.managerPageContainer{
+    position: absolute;
+    z-index: 10;
+    background-color: #f4f4f4;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.managerPageNavigation{
+    margin: 2rem;
+}

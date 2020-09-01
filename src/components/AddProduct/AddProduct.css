@@ -1,0 +1,17 @@
+.AddProductContainer{
+    position: absolute;
+    top: 0;
+    background: #f4f4f4;
+    width: 100vw;
+    height: 100vh;
+    
+}
+.AddProductForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    margin: 1rem;
+}

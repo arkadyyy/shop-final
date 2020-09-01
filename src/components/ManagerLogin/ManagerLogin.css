@@ -1,0 +1,38 @@
+.managerLoginContainer{
+    position: absolute;
+    z-index: 10;
+    background-color: #f4f4f4;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    box-shadow: 1px 1px 2px lightslategrey ;
+    display: flex;
+
+}
+.logIn{
+    border: none;
+    background-color: rgb(145, 145, 145);
+    padding: 0.45rem 1.7rem;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px lightslategrey ;
+    margin: 0.4rem;     
+    color: #f4f4f4!important;
+    
+   
+}
+.loginHeader{
+    background-color: #333;
+    color: #f4f4f4!important;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.loginInputs{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,38 +1,37 @@
-.App {
+
+@import '~antd/dist/antd.css';
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.productsContainer{
+  
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 100vh;
+  
+}
+/* .cart{
+  grid-row: 1 / 100;
   text-align: center;
+} */
+.appContainer{
+  display: flex; /* this enables flex layout */
+  flex-direction: column; 
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.slider{
+  width: 40%!important;
+  margin: 0 auto;
+  text-align: center;
+  
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.sliderContainer{
+  padding-top: 1rem;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
